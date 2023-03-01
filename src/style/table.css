@@ -1,0 +1,35 @@
+.custom-table-container { 
+    margin-top: 20px;
+}
+.custom-table { 
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 700px;
+    border: 1px solid var(--white);
+    background-color: var(--blue);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.custom-table-row { 
+    border-bottom: 1px solid var(--white);
+}
+
+.custom-table-row:last-child { 
+    border-bottom: none;
+}
+
+.custom-table-cell { 
+    border-right: 1px solid var(--white);
+    padding:7px;
+}
+
+.custom-table-cell:last-child {
+    border-right: none;
+}
+
+.custom-table-title { 
+    font-size: 20px;
+    font-size: bold;
+    text-align: center;
+}

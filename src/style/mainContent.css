@@ -1,0 +1,17 @@
+body { 
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--dark-blue);
+    color:var(--white);
+    height: 100vh;
+}
+
+.main-content { 
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

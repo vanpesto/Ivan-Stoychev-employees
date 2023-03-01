@@ -1,0 +1,28 @@
+.csv-reader-container {
+    border-bottom: 1px solid var(--white);
+    padding:0 12px 12px 12px;
+}
+
+.show-data-btn { 
+    padding: 10px;
+    font-size: 600;
+    border: 2px solid var(--light-blue);
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-data-btn:hover { 
+    background-color: var(--light-blue);
+}
+
+::-webkit-file-upload-button {
+    padding: 10px;
+    font-size: 600;
+    border: 2px solid var(--light-blue);
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
